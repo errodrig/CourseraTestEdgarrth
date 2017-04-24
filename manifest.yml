@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CourseraTestEdgarrth
+  host: CourseraTestEdgarrth
+  disk_quota: 1024M
+  services:
+  - CourseraTestEdgarrth-cloudantNoSQLDB
+  - CourseraTestEdgarrth-iotf-service
